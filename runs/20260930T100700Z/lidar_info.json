@@ -1,0 +1,66 @@
+{
+  "device": {
+    "product": "SF45",
+    "serial": "S45-17584",
+    "hardware": 1,
+    "firmware": "1.3.0",
+    "scan_speed": 5,
+    "scan_enabled": 1,
+    "scan_on_startup": 1,
+    "baud_setting": 4
+  },
+  "port": "/dev/ttyUSB0",
+  "baud": 115200,
+  "fields_mask": 397,
+  "fields": [
+    "first_cm",
+    "first_strength",
+    "last_cm",
+    "temp_centi_c",
+    "yaw_centi_deg"
+  ],
+  "update_rate_setting": 6,
+  "points_per_s_expected": 478.0,
+  "points_per_s_measured": 478.68,
+  "angle_convention": "angle_deg: 0 = straight ahead, positive = left (counter-clockwise seen from above); x_m forward, y_m left; yaw_raw_deg = device yaw, angle_deg = yaw_sign * yaw",
+  "yaw_sign": -1,
+  "scan_low_deg": -45.0,
+  "scan_high_deg": 45.0,
+  "sector_edges_deg": [
+    -45.0,
+    -37.5,
+    -30.0,
+    -22.5,
+    -15.0,
+    -7.5,
+    0.0,
+    7.5,
+    15.0,
+    22.5,
+    30.0,
+    37.5,
+    45.0
+  ],
+  "latency_ms": 4.7,
+  "angle_lag_ms": 0.9,
+  "timestamp_model": "t_ns = t_arrival_ns - latency_ms - angle_lag_ms; angle_deg = yaw interpolated at t_ns",
+  "device_settings_before_run": {
+    "fields": 197,
+    "update_rate": 12,
+    "scan_low": -45.0,
+    "scan_high": 45.0
+  },
+  "stats": {
+    "points": 9493,
+    "invalid": 13,
+    "first_rejected": 9493,
+    "sweeps": 75,
+    "batched_reads": 0,
+    "crc_errors": 0,
+    "bad_payload": 0,
+    "other_packets": 1,
+    "reconfigures": 0,
+    "reopens": 0,
+    "source_errors": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "conn": "/dev/ttyACM0",
+  "baud": 921600,
+  "target_system": 1,
+  "autopilot": "MAV_AUTOPILOT_ARDUPILOTMEGA",
+  "vehicle_type": "MAV_TYPE_QUADROTOR",
+  "requested_hz": {
+    "ATTITUDE": 50.0,
+    "GLOBAL_POSITION_INT": 10.0
+  },
+  "sync_mode": "roundtrip",
+  "offset_ns": 79911682018141,
+  "skew_ns": 740.3653700983542,
+  "converged": true,
+  "sync_sent": 439,
+  "sync_replies": 439,
+  "sync_accepted": 438,
+  "sync_rejected": 1,
+  "max_rtt_ns": 10000000,
+  "counts": {
+    "fcu.att": 1036,
+    "fcu.gpos": 208
+  },
+  "clamped_to_arrival": 1,
+  "reboots": 0,
+  "rate_requests": 1,
+  "foreign_messages": 59,
+  "errors": 0
+}

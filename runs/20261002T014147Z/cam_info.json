@@ -1,0 +1,26 @@
+{
+  "device": "/dev/video0",
+  "visca_port": null,
+  "requested": {
+    "width": null,
+    "height": null,
+    "fourcc": null,
+    "fps": null
+  },
+  "actual": {
+    "width": 640,
+    "height": 480,
+    "fps": 30.0,
+    "fourcc": "YUYV"
+  },
+  "latency_ns": 0,
+  "jpeg_quality": 90,
+  "stamp": "CLOCK_MONOTONIC between grab() and retrieve(), minus latency_ns",
+  "frames": 1340,
+  "fps_measured": 29.91,
+  "grab_failures": 0,
+  "decode_failures": 0,
+  "dropped_writes": 0,
+  "reopens": 0,
+  "errors": 0
+}
